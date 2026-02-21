@@ -1,0 +1,52 @@
+                                                Introduction to Python
+
+Python is a high-level, beginner-friendly programming language used for web apps, data science, AI, automation, and more.
+
+It is:-
+1. Interpreted
+2. High Level
+3. Object-oriented
+4. Extensive libraries
+5. Beginner-friendly
+
+Why Python is popular?
+--> Easy to read and write
+--> Large community and libraries
+--> Works on Windows, Mac, Linux
+--> Good for both beginners and professionals     
+
+What is Variables/Keywords/Identifiers/Comments?
+1. Variables:-
+        A variable is a named container that stores data in memory.
+        name = "Alice"      (string variable)
+        age = 25            (integer variable)
+        price = 99.99       (float variable)
+        is_active = True    (boolean variable)
+
+
+Key rules:-
+- No need to declare type — (Python is dynamically typed)
+- You can reassign a variable to a different type anytime
+
+2. Keywords:-
+        Keywords are reserved words that have special meaning in Python. You cannot use them as variable names.
+        for ex-
+            if, elif, else, break, for, def, import etc...
+
+3. Identifiers:-
+        An identifier is a name used to identify a variable, function, class, module, etc.
+Rules:
+1. Can contain letters (a–z, A–Z), digits (0–9), and underscores _
+2. Cannot start with a digit → 2name ❌, name2 ✅
+3. Case-sensitive → Age and age are different
+4. Cannot be a keyword → class = 5 ❌            
+Valid identifiers:
+        my_variable = 10
+        _private = 20
+        CamelCase = 30
+        value1 = 40
+
+4. Comments:-
+        Comments are lines ignored by the Python interpreter — used to explain code.
+        1. Single-line comment → use #
+        2. Multi-line comment ->use '''---'''

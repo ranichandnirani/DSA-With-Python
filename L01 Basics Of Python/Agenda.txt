@@ -38,7 +38,7 @@ Characteristics:
 
 Examples: Python, Java, JavaScript, Ruby, PHP, C#
 Example code (Python):
-pythonprint("Hello, World!")
+print("Hello, World!")
 
 Low Level Programming Language:-
 A low-level language is closer to machine language and directly interacts with the computer's hardware.
@@ -56,7 +56,21 @@ Characteristics:
 5. Machine dependent (not portable)
 
 Example code (Assembly):
-asmMOV AX, 1
+MOV AX, 1
 ADD AX, 2
 
 
+Compiler Vs Interpreter:-
+A quick difference:
+
+- Compiler: Translates the 'entire source code' into machine code (or bytecode) **before execution**.  
+  Example: C, C++ (typically compiled).
+
+- Interpreter: Translates and executes code 'line by line at runtime'.  
+  Example: Python, JavaScript (typically interpreted).
+
+Key practical differences:
+
+- Speed: Compiled programs usually run faster.
+- Error reporting: Compiler shows errors after full compilation; interpreter often stops at first error encountered during execution.
+- Portability: Interpreted code is often more portable (needs interpreter), while compiled binaries are platform-specific unless recompiled.
