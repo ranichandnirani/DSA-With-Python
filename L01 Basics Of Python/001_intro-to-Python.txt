@@ -50,3 +50,66 @@ Valid identifiers:
         Comments are lines ignored by the Python interpreter — used to explain code.
         1. Single-line comment → use #
         2. Multi-line comment ->use '''---'''
+
+5. Operators:-
+        1). Arithmetic Operators:
+                        Used for mathematical calculation.
+                                a)- +(Addithion) 
+                                        ex: print(5 + 3)
+                                b)- -(Subtraction)
+                                        ex: print(5 - 3)
+                                c)- *(Multiplication)
+                                        ex: print(5 * 3)
+                                d)- /(Division)
+                                        ex: print(34/2) decemale
+                                e)- //(Floor division)
+                                        ex: print(34//2) return output is floor value (integer)
+                                f)- %(Modulo)
+                                        ex: print(34%3)
+                                g)- **(Exponentiation)
+                                        ex: print(2**3) power
+        2). Assignment Operators:
+                        Used to assign values to Variables.
+                                a)- =(Assign) 
+                                        ex: a = 10                               
+                                b)- +=(Add and assign)
+                                        ex: a += 2
+                                c)- -=(Subtract and assign)
+                                        ex: a -= 2
+                                d)- *=(Multiply and assign)
+                                        ex: a *= 3
+                                e)- etc..
+        3). Comparison Operators:
+                        Used to compare values.
+                                a)- ==(Equal to)                        
+                                b)- !=(Not equal to)
+                                c)- >(Greater than)
+                                d)- <(Less than)
+                                e)- >=(Greater than equal to)
+                                f)- <=(Less than equal to)
+        4). Logical Operators:
+                        Used to combine conditional statements.
+                                a)- &&(Logical AND)                        
+                                b)- ||(Logical OR)
+                                c)- !(Logical NOT)
+        5). Bitwise Operators:
+                        Used to manipulate individual bits of data.
+                                a)- &(Bitwise AND)
+                                b)- |(Bitwise OR)
+                                c)- ^(Bitwise XOR)
+                                d)- ~(Bitwise NOT)
+                                e)- <<(Left shift)
+                                f)- >>(Right shift)
+        6). Identity Operators:                        
+                        Used to compare memory locations of objects.
+                                a)- is(Return True if both variables are the same object).
+                                b)- is not(Returns True if both variables are not the same object).
+        7). Membership Operators:
+                        Used to chack if a value is part of a sequence.
+                                a)- in(Returns True if a value is found in the sequence).
+                                b)- not in(Returns True if a value is not found in the sequence).
+6. Data Types:-
+        Data types are used to represent the type of a variable. They tell the Python interpreter what operation can be performed on various types of data.
+                        a)- Primitive (Numaric(int, bool, float, complex), String(str), Boolean(bool))
+                        b)- Collection (List, Tuple, Set, Dictionary)
+                        c)- Speciale(None)
