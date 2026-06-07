@@ -45,23 +45,9 @@ This repository contains my complete journey of learning **Data Structures and A
 
 | # | Topic | Subtopics | Status |
 |---|-------|-----------|--------|
-| 01 | **Recursion and Time & Space Complexity** | Big-O, Analysis | 📝 Upcoming |
-| 02 | **Arrays** | 1D, 2D, Operations | 📝 Upcoming |
-| 03 | **Strings** | Manipulation, Pattern Matching | 📝 Upcoming |
-| 04 | **Searching Algorithms** | Linear, Binary Search | 📝 Upcoming |
-| 05 | **Sorting Algorithms** | Bubble, Selection, Insertion, Merge, Quick | 📝 Upcoming |
-| 06 | **Recursion** | Base case, Recursive calls | 📝 Upcoming |
-| 07 | **Backtracking** | N-Queens, Sudoku | 📝 Upcoming |
-| 08 | **Linked Lists** | Single, Double, Circular | 📝 Upcoming |
-| 09 | **Stacks** | Implementation, Applications | 📝 Upcoming |
-| 10 | **Queues** | Simple, Circular, Priority | 📝 Upcoming |
-| 11 | **Hashing** | Hash Tables, Hash Maps | 📝 Upcoming |
-| 12 | **Trees** | Binary Tree, BST, AVL | 📝 Upcoming |
-| 13 | **Heaps** | Min Heap, Max Heap | 📝 Upcoming |
-| 14 | **Graphs** | BFS, DFS, Shortest Path | 📝 Upcoming |
-| 15 | **Dynamic Programming** | Memoization, Tabulation | 📝 Upcoming |
-| 16 | **Greedy Algorithms** | Activity Selection, Huffman | 📝 Upcoming |
-| 17 | **Advanced Topics** | Tries, Segment Trees | 📝 Upcoming |
+| L00 | **Before Python** | What is Programming Language, High Level Programming Language VS Low Level Programming Language |✅ Completed |
+| L01 | **Basics Of Python** | Operators, Data Types | ✅ Completed |
+
 
 ---
 
@@ -69,7 +55,7 @@ This repository contains my complete journey of learning **Data Structures and A
 
 ```mermaid
 graph LR
-    A[🌱 Start] --> B[⏱️ Complexity<br/>Analysis]
+    A[🌱 Start] --> B[📊 L00-L01 Before Python &<br/>Basics Of Python]
     B --> C[📊 Arrays &<br/>Strings]
     C --> D[🔍 Searching &<br/>Sorting]
     D --> E[🔄 Recursion &<br/>Backtracking]
