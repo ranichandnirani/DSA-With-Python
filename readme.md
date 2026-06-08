@@ -56,12 +56,12 @@ This repository contains my complete journey of learning **Data Structures and A
 ```mermaid
 graph LR
     A[🌱 Start] --> B[📊 L00-L01 Before Python &<br/>Basics Of Python]
-    B --> C[📊 Arrays &<br/>Strings]
-    C --> D[🔍 Searching &<br/>Sorting]
-    D --> E[🔄 Recursion &<br/>Backtracking]
-    E --> F[🔗 Linear<br/>Structures]
-    F --> G[🌳 Trees &<br/>Graphs]
-    G --> H[💡 DP &<br/>Greedy]
+    B --> C[📊 ]
+    C --> D[🔍 ]
+    D --> E[🔄 ]
+    E --> F[🔗 ]
+    F --> G[🌳 ]
+    G --> H[💡 ]
     H --> I[🎉 Master!]
     
     style A fill:#90EE90,stroke:#2E8B57,stroke-width:3px,color:#000
@@ -110,63 +110,12 @@ python solution.py
 
 ```
 📦 DSA-With-Python
-├── 📁 01-Time-Space-Complexity
-│   ├── theory.md
-│   ├── examples.py
-│   └── problems/
-├── 📁 02-Arrays
-│   ├── theory.md
-│   ├── 1d-arrays.py
-│   ├── 2d-arrays.py
-│   └── problems/
-├── 📁 03-Strings
-│   ├── theory.md
-│   ├── operations.py
-│   └── problems/
-├── 📁 04-Searching-Algorithms
-│   ├── linear_search.py
-│   ├── binary_search.py
-│   └── problems/
-├── 📁 05-Sorting-Algorithms
-│   ├── bubble_sort.py
-│   ├── selection_sort.py
-│   ├── insertion_sort.py
-│   ├── merge_sort.py
-│   ├── quick_sort.py
-│   └── problems/
-├── 📁 06-Recursion
-│   ├── theory.md
-│   ├── examples.py
-│   └── problems/
-├── 📁 07-Backtracking
-│   └── problems/
-├── 📁 08-Linked-Lists
-│   ├── singly_linked_list.py
-│   ├── doubly_linked_list.py
-│   └── problems/
-├── 📁 09-Stacks
-│   └── implementation.py
-├── 📁 10-Queues
-│   └── implementation.py
-├── 📁 11-Hashing
-│   └── hash_table.py
-├── 📁 12-Trees
-│   ├── binary_tree.py
-│   ├── bst.py
-│   └── problems/
-├── 📁 13-Heaps
-│   └── heap.py
-├── 📁 14-Graphs
-│   ├── graph.py
-│   ├── bfs.py
-│   ├── dfs.py
-│   └── problems/
-├── 📁 15-Dynamic-Programming
-│   └── problems/
-├── 📁 16-Greedy-Algorithms
-│   └── problems/
-├── 📁 17-Advanced-Topics
-│   └── problems/
+├── 📁 L00-Before-Python
+│   ├── theory.txt
+├── 📁 L01-Basics Of Python
+│   ├── 001 Operators/
+│   ├── 002-Datatypes/
+│   ├── theory.txt
 ├── 📄 README.md
 ├── 📄 .gitignore
 └── 📄 LICENSE
@@ -179,191 +128,18 @@ python solution.py
 ### 📚 **Fundamentals**
 
 <details>
-<summary><b>⏱️ Time & Space Complexity</b></summary>
+<summary><b>🎯 Before Python</b></summary>
 
-- Big-O Notation
-- Time Complexity Analysis
-- Space Complexity Analysis
-- Best, Average, Worst Case
-- Amortized Analysis
+- What is Programming Language
+- High Level Programming Language Vs Low Level Programming Language
+- Compiler Vs Interpreter
 </details>
 
 <details>
-<summary><b>📊 Arrays</b></summary>
+<summary><b>📊 Basics Of Python</b></summary>
 
-- 1D Arrays
-- 2D Arrays (Matrix)
-- Array Operations
-- Subarrays & Subsequences
-- Kadane's Algorithm
-- Sliding Window Technique
-</details>
-
-<details>
-<summary><b>📝 Strings</b></summary>
-
-- String Basics
-- Pattern Matching (KMP, Rabin-Karp)
-- String Manipulation
-- Palindromes
-- Anagrams
-</details>
-
-### 🔍 **Searching & Sorting**
-
-<details>
-<summary><b>🔎 Searching Algorithms</b></summary>
-
-- Linear Search
-- Binary Search
-- Binary Search Variations
-- Ternary Search
-</details>
-
-<details>
-<summary><b>🔄 Sorting Algorithms</b></summary>
-
-- Bubble Sort
-- Selection Sort
-- Insertion Sort
-- Merge Sort
-- Quick Sort
-- Heap Sort
-- Counting Sort
-- Radix Sort
-</details>
-
-### 🔁 **Recursion & Backtracking**
-
-<details>
-<summary><b>🔄 Recursion</b></summary>
-
-- Recursion Basics
-- Tail Recursion
-- Tree Recursion
-- Indirect Recursion
-- Tower of Hanoi
-- Fibonacci Series
-</details>
-
-<details>
-<summary><b>⬅️ Backtracking</b></summary>
-
-- N-Queens Problem
-- Sudoku Solver
-- Rat in a Maze
-- Subset Sum
-- Permutations & Combinations
-</details>
-
-### 🔗 **Linear Data Structures**
-
-<details>
-<summary><b>🔗 Linked Lists</b></summary>
-
-- Singly Linked List
-- Doubly Linked List
-- Circular Linked List
-- Common Operations
-- Reverse, Cycle Detection
-</details>
-
-<details>
-<summary><b>📚 Stacks</b></summary>
-
-- Stack Implementation
-- Applications (Parenthesis Matching, Infix to Postfix)
-- Stock Span Problem
-- Next Greater Element
-</details>
-
-<details>
-<summary><b>🚶 Queues</b></summary>
-
-- Simple Queue
-- Circular Queue
-- Priority Queue
-- Deque
-- Applications
-</details>
-
-### 🌳 **Non-Linear Data Structures**
-
-<details>
-<summary><b>#️⃣ Hashing</b></summary>
-
-- Hash Tables
-- Hash Functions
-- Collision Handling
-- Hash Maps
-- Hash Sets
-</details>
-
-<details>
-<summary><b>🌳 Trees</b></summary>
-
-- Binary Tree
-- Binary Search Tree (BST)
-- AVL Tree
-- Tree Traversals (Inorder, Preorder, Postorder)
-- Level Order Traversal
-- LCA, Height, Diameter
-</details>
-
-<details>
-<summary><b>⛰️ Heaps</b></summary>
-
-- Min Heap
-- Max Heap
-- Heap Operations
-- Heap Sort
-- Priority Queue using Heap
-</details>
-
-<details>
-<summary><b>🕸️ Graphs</b></summary>
-
-- Graph Representation
-- BFS (Breadth-First Search)
-- DFS (Depth-First Search)
-- Shortest Path (Dijkstra, Bellman-Ford)
-- Minimum Spanning Tree (Kruskal, Prim)
-- Topological Sort
-- Cycle Detection
-</details>
-
-### 💡 **Advanced Algorithms**
-
-<details>
-<summary><b>💰 Dynamic Programming</b></summary>
-
-- Memoization
-- Tabulation
-- 0/1 Knapsack
-- Longest Common Subsequence
-- Longest Increasing Subsequence
-- Matrix Chain Multiplication
-- Edit Distance
-</details>
-
-<details>
-<summary><b>🎯 Greedy Algorithms</b></summary>
-
-- Activity Selection
-- Fractional Knapsack
-- Job Sequencing
-- Huffman Coding
-- Minimum Platforms
-</details>
-
-<details>
-<summary><b>🚀 Advanced Topics</b></summary>
-
-- Tries
-- Segment Trees
-- Fenwick Tree (BIT)
-- Disjoint Set Union (DSU)
-- String Algorithms
+- Operaators
+- Datatypes
 </details>
 
 ---
@@ -403,10 +179,8 @@ python solution.py
 ## 🎯 Learning Goals
 
 ### 📝 Short-term Goals
-- ✅ Complete basics (Arrays, Strings)
-- ✅ Master searching & sorting
-- ✅ Understand recursion thoroughly
-- ✅ Implement all linear data structures
+- ✅ Before Python
+- ✅ Basics Of Python
 
 ### 🚀 Long-term Goals
 - 🎯 Solve 200+ DSA problems
